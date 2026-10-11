@@ -1,0 +1,22 @@
+[
+  ["/our-story", "/about"],
+  ["/contact-us", "/contact"],
+  ["/blogs", "/journal"],
+  ["/blogs/:path+", "/journal"],
+  ["/tag/:path+", "/journal"],
+  ["/category/:path+", "/journal"],
+  ["/author/:path+", "/journal"],
+  ["/privacy-policy", "/legal/privacy"],
+  ["/terms-conditions", "/legal/terms"],
+  ["/refund-policy", "/legal/refunds"],
+  ["/uae", "/uae/dubai"],
+  ["/usa", "/usa/houston"],
+  ["/our-fleet", "/fleet"],
+  ["/our-fleet/:path+", "/uae/dubai#fleet"],
+  ["/:page(rent-.+-in-dubai)", "/uae/dubai#fleet"],
+  ["/uae/dubai/fleet", "/uae/dubai#fleet"],
+  ["/usa/houston/fleet", "/usa/houston#fleet"],
+  ["/uae/dubai/car-rental-investment-in-dubai", "/invest"],
+  ["/uae/dubai/:path+", "/uae/dubai#fleet"],
+  ["/usa/houston/:path+", "/usa/houston#fleet"]
+]
